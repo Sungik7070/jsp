@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*------top.jsp----*/
+.header {
+  background-color: #804040;
+  color: #ffffff;
+  padding: 15px;
+}
+/*-------left.jsp------*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+	width:150px;
+  float: left;
+  padding: 15px;
+}
+
+
+.menu ul {
+	text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+	
+  padding: 5px;
+  width:190%;
+  margin-bottom: 10px;
+  background-color: #400000;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+
+/*------.jsp----*/
+  .content{
+    margin:10px 9px 50px; height:100%;
+    
+  }
+  #areaMain{
+     float:right; padding:0px 0;
+     width:75%; margin:0px;
+  }
+  #areaSub{
+  margin:10PX 0PX 30PX 0PX;
+    width:20%; float:left; height:90%;
+   background-color: black; padding: 20px;
+   position:absolute;
+  }
+  footer{
+   border:#000000 2px dotted; 
+   clear:both; height:500%;
+   position: top;
+  }
